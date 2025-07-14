@@ -1,0 +1,64 @@
+{
+  "name": "toggle-tab-completion",
+  "displayName": "Toggle Tab Completion",
+  "description": "A single button and hotkey to toggle both Github Copilot Tab Completion and Inline Ghost Text.",
+  "version": "1.0.0",
+  "publisher": "StefanoAldegheri",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Snippets"
+  ],
+  "keywords": [
+    "toggle",
+    "completion",
+    "tab",
+    "copilot",
+    "ghost text",
+    "inline suggest",
+    "ai",
+    "intellisense",
+    "enable",
+    "disable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanoaldegheri/toggle-tab-completion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanoaldegheri/toggle-tab-completion/issues"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "toggle-tab-completion.toggle",
+        "title": "Toggle All Completions (Standard & Ghost Text)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "toggle-tab-completion.toggle",
+        "key": "ctrl+oem_8",
+        "mac": "cmd+oem_8"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0",
+    "typescript": "^4.7.4"
+  }
+}

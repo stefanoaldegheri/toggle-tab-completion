@@ -1,0 +1,21 @@
+# Exclude development and build-specific files
+.vscode/
+.github/
+.vscode-test/
+.vscode-test-compile/
+.gitignore
+vsc-extension-quickstart.md
+webpack.config.js
+
+src/
+tsconfig.json
+package-lock.json
+
+**/node_modules/
+
+test/
+*.test.js
+*.test.js.map
+
+.DS_Store
+Thumbs.db
