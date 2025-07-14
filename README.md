@@ -1,6 +1,18 @@
-# Toggle Completion
+# Tab Toggle Completion
 
-A simple but powerful VS Code extension to quickly enable or disable all code completions—both standard tab completions and "ghost text" inline suggestions (like those from GitHub Copilot)—with a single command.
+A simple but powerful VS Code extension to quickly enable or disable all code completions—both standard tab completions and "ghost text" inline suggestions— for GitHub Copilot with a single command.
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=StefanoAldegheri.toggle-tab-completion">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/StefanoAldegheri.toggle-tab-completion.svg?color=blue&label=Marketplace" alt="Visual Studio Marketplace Version">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=StefanoAldegheri.toggle-tab-completion">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/StefanoAldegheri.toggle-tab-completion.svg?color=green" alt="Visual Studio Marketplace Installs">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=StefanoAldegheri.toggle-tab-completion">
+    <img src="https://img.shields.io/visual-studio-marketplace/r/StefanoAldegheri.toggle-tab-completion.svg?color=yellow" alt="Visual Studio Marketplace Rating">
+  </a>
+</p>
 
 ## Overview
 
