@@ -1,4 +1,4 @@
-# Tab Toggle Completion
+# Toggle Tab Completion
 
 A simple but powerful VS Code extension to quickly enable or disable all code completions—both standard tab completions and "ghost text" inline suggestions— for GitHub Copilot with a single command.
 
