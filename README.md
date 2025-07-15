@@ -23,7 +23,7 @@ Modern code editors and AI assistants provide amazing autocompletion features. H
 -   **One-Click Status Bar Toggle**: A clear icon in your status bar shows you if completions are active (`✔`) or inactive (`✘`). Just click it to toggle.
 -   **Synchronized Settings**: Instantly enables or disables both standard Tab Completion and Ghost Text (inline suggestions) together.
 -   **Smart Scope Detection**: The extension intelligently updates your settings at the Global level and, if a Workspace setting already exists, at the Workspace level.
--   **Customizable Hotkey**: Comes with a convenient default hotkey (``Ctrl+` ``), which can be easily changed in VS Code's Keyboard Shortcuts editor.
+-   **Customizable Hotkey**: Comes with a convenient default hotkey (`Ctrl+q Ctrl+tab`), which can be easily changed in VS Code's Keyboard Shortcuts editor.
 
 ## Installation
 
@@ -38,7 +38,7 @@ Once installed, you can toggle completions in two ways:
 
 1.  **Status Bar**: Click the **`✔ All Completions`** or **`✘ All Completions`** text in the status bar (usually in the bottom-right corner).
 2.  **Command Palette**: Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`), search for **"Toggle All Completions"**, and press Enter.
-3.  **Keyboard Shortcut**: Use the default hotkey ``Ctrl+` `` (or ``Cmd+` `` on macOS).
+3.  **Keyboard Shortcut**: Use the default hotkey `Ctrl+q Ctrl+tab` (or `Cmd+q Cmd+tab` on macOS).
 
 ### Customizing the Hotkey
 

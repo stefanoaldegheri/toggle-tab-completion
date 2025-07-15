@@ -24,11 +24,11 @@ function updateUI() {
   if (isEffectivelyEnabled) {
     statusBarItem.text = `$(check) All Completions`;
     statusBarItem.color = new ThemeColor('statusBar.foreground'); // Use default color for "on"
-    statusBarItem.tooltip = 'Completions are ON. Click or use shortcut (Default: Ctrl+`) to disable.';
+    statusBarItem.tooltip = 'Completions are ON. Click or use shortcut (Default: Ctrl+q Ctrl+tab) to disable.';
   } else {
     statusBarItem.text = `$(x) All Completions`;
     statusBarItem.color = new ThemeColor('statusBarItem.errorForeground'); // Use error color for "off"
-    statusBarItem.tooltip = 'Completions are OFF. Click or use shortcut (Default: Ctrl+`) to enable.';
+    statusBarItem.tooltip = 'Completions are OFF. Click or use shortcut (Default: Ctrl+q Ctrl+tab) to enable.';
   }
 }
 

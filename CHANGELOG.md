@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [1.0.1] - 2025-07-15
+
+### Changed
+- Updated default hotkey from ``Ctrl+` `` to `Ctrl+q Ctrl+tab` (Windows/Linux) and ``Cmd+` `` to `Cmd+q Cmd+tab` (macOS).
+- Updated status bar item tooltip to reflect the new default hotkey.
+
 ## [1.0.0] - 2025-07-14
 
 ### Added

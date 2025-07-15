@@ -2,7 +2,7 @@
   "name": "toggle-tab-completion",
   "displayName": "Toggle Tab Completion",
   "description": "A single button and hotkey to toggle both Github Copilot Tab Completion and Inline Ghost Text.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "StefanoAldegheri",
   "engines": {
     "vscode": "^1.70.0"
@@ -47,8 +47,8 @@
     "keybindings": [
       {
         "command": "toggle-tab-completion.toggle",
-        "key": "ctrl+oem_8",
-        "mac": "cmd+oem_8"
+        "key": "ctrl+q ctrl+tab",
+        "mac": "cmd+q cmd+tab"
       }
     ]
   },
